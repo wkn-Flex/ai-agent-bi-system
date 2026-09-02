@@ -1,0 +1,41 @@
+# ===== Python 运行缓存 =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ===== 敏感配置（含 API Key 与数据库密码，禁止提交）=====
+config.py
+**/config.py
+
+# ===== 系统运行产物 =====
+multi_agent_system/output/
+minimal_loop/output/
+*.log
+
+# ===== 原始数据集（体积大，单独从 Kaggle 获取）=====
+archive/
+*.csv
+
+# ===== 论文/文档/截图等非代码资料 =====
+*.docx
+*.doc
+*.xlsx
+*.pptx
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# ===== 临时目录与其他 =====
+temp/
+ppt/
+计划/
+.temp/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
